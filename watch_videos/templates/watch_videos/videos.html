@@ -1,0 +1,9 @@
+<h1>Watching Videos!</h1>
+
+{% for video in video_list %}
+    {{ video }}
+    <iframe id="vid" width="300" height="300"
+        src="https://www.youtube.com/embed/{{ video }}?autoplay=0">
+    </iframe> 
+
+{% endfor %}
