@@ -8,7 +8,7 @@ django-embed-video==1.1.2
 EasyProcess==0.2.3
 gunicorn==19.8.1
 idna==2.6
-lxml==4.1.1
+lxml==4.6.5
 PySocks==1.6.8
 PyVirtualDisplay==0.2.1
 requests==2.18.4
